@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
+  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '`', Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
+    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LEFT ALT, LEFT GUI, LCTRL, lower, RET, SPACE, raise, RCTRL, RIGHT GUI, RIGHT ALT]
   lower:
   - '&studio_unlock'
   - F1
@@ -44,11 +44,11 @@ layers:
   - '-'
   - KP PLUS
   - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '['
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ']'
+  - '}'
   - ;
   - ':'
   - \
@@ -82,9 +82,9 @@ layers:
   - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PG UP
   - {t: ▽, type: trans}
-  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
@@ -93,10 +93,10 @@ layers:
   - LCTRL
   - LSHFT
   - {t: ▽, type: trans}
-  - CLCK
-  - PG DN
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
+  - UP
   - RIGHT
   - DEL
   - BSPC
